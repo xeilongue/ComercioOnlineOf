@@ -13,6 +13,18 @@
         android:theme="@style/Theme.ComercioOnline"
         tools:targetApi="31">
         <activity
+            android:name=".TelaProdutosServicos"
+            android:exported="false" />
+        <activity
+            android:name=".TrocarSenha"
+            android:exported="false" />
+        <activity
+            android:name=".VerificarEmail"
+            android:exported="false" />
+        <activity
+            android:name=".TelaRecuperarSenha"
+            android:exported="false" />
+        <activity
             android:name=".TelaCadastro"
             android:exported="false" />
         <activity

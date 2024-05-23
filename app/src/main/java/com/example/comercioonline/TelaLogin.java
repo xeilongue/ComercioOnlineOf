@@ -14,9 +14,23 @@ public class TelaLogin extends AppCompatActivity {
         setContentView(R.layout.telalogin_main);
     }
 
-    public void teladois (View view) {
+    public void telaprodutos (View view) {
+
+        Intent in = new Intent(TelaLogin.this, TelaProdutosServicos.class);
+        startActivity(in);
+
+    }
+
+    public void telaregistro (View view) {
 
         Intent in = new Intent(TelaLogin.this, TelaCadastro.class);
+        startActivity(in);
+
+    }
+
+    public void recuperarsenha (View view) {
+
+        Intent in = new Intent(TelaLogin.this, TelaRecuperarSenha.class);
         startActivity(in);
 
     }

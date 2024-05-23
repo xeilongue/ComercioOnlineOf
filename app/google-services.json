@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929250049266",
+    "project_id": "protejobd",
+    "storage_bucket": "protejobd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929250049266:android:c1fe144a1b437d4354646b",
+        "android_client_info": {
+          "package_name": "com.example.comercioonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsgAcrQRGtlWsDoLeH4Rplfdb4UNix9Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
